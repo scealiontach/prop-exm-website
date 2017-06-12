@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ${WEBROOT}
+cd ${WEBROOT}/../
 
 /bin/npm install
 /bin/composer install
