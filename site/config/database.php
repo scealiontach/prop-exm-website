@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', getenv('service_propeller_address'),
+            'host' => env('DB_HOST', getenv('service_propeller_address')),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', getenv('service_propeller_dbname'),
-            'username' => env('DB_USERNAME', getenv('service_propeller_user'),
-            'password' => env('DB_PASSWORD', getenv('service_propeller_password'),
+            'database' => env('DB_DATABASE', getenv('service_propeller_dbname')),
+            'username' => env('DB_USERNAME', getenv('service_propeller_user')),
+            'password' => env('DB_PASSWORD', getenv('service_propeller_password')),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
